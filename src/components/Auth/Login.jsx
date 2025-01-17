@@ -9,12 +9,10 @@ const Login = ({ handleLogin }) => {
     handleLogin(email, password);
     setEmail("");
     setPassword("");
-    console.log("Email:", email);
-    console.log("Password:", password);
   };
 
   return (
-    <div className="flex h-screen items-center justify-center">
+    <div className="flex h-screen  items-center justify-center">
       <div className="border-2 rounded-xl border-emerald-600 p-20">
         <form
           onSubmit={(e) => {
